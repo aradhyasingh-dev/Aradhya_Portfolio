@@ -15,12 +15,13 @@ import {
   FaRobot,
 } from "react-icons/fa";
 
-import profileImg from "../assets/profile.avif";
-import projectImg1 from "../assets/project1.avif";
-import projectImg2 from "../assets/project2.avif";
-import projectImg3 from "../assets/project3.avif";
-import projectImg4 from "../assets/project4.avif";
-import projectImg5 from "../assets/project5.avif";
+// import profileImg from "../assets/profile.avif";
+import profileImg from "../assets/profile.jpeg";
+import projectImg1 from "../assets/lms.jpg";
+import projectImg2 from "../assets/tour.jpg";
+import projectImg3 from "../assets/project2.avif";
+import projectImg4 from "../assets/Youtube.jpg";
+import projectImg5 from "../assets/portfolio.jpg";
 import projectImg6 from "../assets/project6.avif";
 
 export const assets = {
@@ -56,102 +57,93 @@ export const skills = [
     title: "Frontend Development",
     icon: FaReact,
     description:
-      "Building responsive and interactive user interfaces with modern frameworks.",
-    tags: ["React", "Vue.js", "Angular", "TypeScript"],
+      "Building responsive, accessible, and interactive user interfaces.",
+    tags: ["React", "HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
     title: "Backend Development",
     icon: FaServer,
-    description: "Creating robust server-side applications and RESTful APIs.",
-    tags: ["Node.js", "Express", "Django", "Laravel"],
+    description: "Developing robust server-side applications and RESTful APIs.",
+    tags: ["ASP.NET MVC", "Node.js", "Express", "Django"],
   },
   {
     title: "Database Management",
     icon: FaDatabase,
     description:
       "Designing and optimizing databases for performance and scalability.",
-    tags: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+    tags: ["MongoDB", "PostgreSQL", "MS SQL Server"],
   },
   {
     title: "Mobile Development",
     icon: FaMobileAlt,
     description:
-      "Building cross-platform mobile applications with modern tools.",
-    tags: ["React Native", "Flutter", "Ionic", "Swift"],
-  },
-  {
-    title: "Cloud & DevOps",
-    icon: FaCloud,
-    description: "Deploying and managing applications in cloud environments.",
-    tags: ["AWS", "Docker", "Kubernetes", "CI/CD"],
+      "Building cross-platform mobile applications using modern frameworks.",
+    tags: ["React Native"],
   },
   {
     title: "Tools & Technologies",
     icon: FaTools,
     description:
-      "Essential tools and technologies I use in my development workflow.",
-    tags: ["Git & GitHub", "Webpack", "Figma", "Jest"],
+      "Tools and platforms I use for efficient development and collaboration.",
+    tags: ["Git", "GitHub"],
+  },
+  {
+    title: "Programming Languages",
+    icon: FaPaintBrush,
+    description:
+      "Core programming languages I use for application development.",
+    tags: ["C", "C++", "C#", "Python"],
   },
 ];
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Learning Management System (LMS)",
     description:
-      "A full-featured online store with shopping cart, user authentication, and payment processing.",
+      "A web-based Learning Management System developed using ASP.NET MVC with features like user authentication, course management, student enrollment, and an admin dashboard.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    tech: ["ASP.NET MVC", "C#", "MS SQL Server", "Bootstrap"],
+    icons: [FaServer, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
-    title: "Task Management App",
+    title: "Tour & Travel Management System",
     description:
-      "A productivity application with drag-and-drop functionality and real-time updates.",
+      "A tour and travel booking system built with ASP.NET MVC, allowing users to explore travel packages and administrators to manage bookings and inquiries.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-    icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
+    tech: ["ASP.NET MVC", "C#", "MS SQL Server", "HTML", "CSS"],
+    icons: [FaServer, FaDatabase],
     demo: "#",
     code: "#",
   },
   {
-    title: "Fitness Tracker",
+    title: "Web Forms Application",
     description:
-      "A mobile app for tracking workouts, nutrition, and health metrics.",
+      "A database-driven application built using ASP.NET Web Forms with CRUD operations, server-side validation, and SQL Server integration.",
     image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-    icons: [FaReact, FaDatabase],
+    tech: ["ASP.NET Web Forms", "C#", "MS SQL Server"],
+    icons: [FaServer, FaDatabase],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "YouTube Clone",
+    description:
+      "A responsive YouTube clone developed using React, featuring video search, listings, and component-based architecture with API integration.",
+    image: projectImg4,
+    tech: ["React", "JavaScript", "YouTube API", "CSS"],
+    icons: [FaReact],
     demo: "#",
     code: "#",
   },
   {
     title: "Portfolio Website",
     description:
-      "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Chat App",
-    description:
-      "A real-time chat application with group messaging, emojis, and file sharing.",
+      "A personal portfolio website built using React to showcase projects, skills, and experience with a modern, responsive UI.",
     image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description:
-      "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
+    tech: ["React", "JavaScript", "CSS", "GitHub Pages"],
+    icons: [FaReact],
     demo: "#",
     code: "#",
   },
@@ -159,27 +151,19 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Apprentice .NET Developer",
+    company: "Techpile Technology Pvt. Ltd., Lucknow",
+    duration: "8 Months",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "Completed an intensive apprenticeship focused on .NET development, gaining hands-on experience with C#, ASP.NET, and database integration while building real-world applications.",
     color: "purple",
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    role: ".NET Developer Intern",
+    company: "SigmaIT Software Designers Pvt. Ltd., Lucknow",
+    duration: "4 Months",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+      "Worked on live projects using ASP.NET MVC, .NET Core, and ASP.NET Web Forms. Contributed to application development, bug fixing, and feature implementation in a professional team environment.",
     color: "pink",
-  },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue",
   },
 ];
