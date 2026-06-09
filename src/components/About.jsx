@@ -22,16 +22,18 @@ const About = () => {
         {/* Image + my journey */}
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* images */}
-          <div className="md:1/2 rounded-2xl overflow-hidden">
-            <motion.img
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.2 }}
-              className="w-full h-full object-cover"
-              src={assets.profileImg}
-              alt="profile"
-            />
+          <div className="md:w-1/2 flex justify-center">
+            <div className="bg-blue-50 p-6 rounded-3xl shadow-lg">
+              <motion.img
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.9, ease: "easeOut" }}
+                viewport={{ once: false, amount: 0.2 }}
+                className="w-48 md:w-64 lg:w-80 h-auto rounded-2xl"
+                src={assets.profileImg}
+                alt="profile"
+              />
+            </div>
           </div>
           {/* content */}
           <motion.div

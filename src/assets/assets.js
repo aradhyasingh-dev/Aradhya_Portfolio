@@ -142,7 +142,7 @@ export const workData = [
     color: "pink",
   },
   {
-    role: "Full Stack Intern",
+    role: "Full Stack Developer",
     company: "Fourbrick Technology Pvt. Ltd., Noida",
     duration: "April 2026 – Present",
     description:
