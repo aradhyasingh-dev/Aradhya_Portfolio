@@ -95,21 +95,18 @@ export const projects = [
     title: "Medicine Management System",
     description:
       "A MERN stack-based inventory management application for managing medicines, stock levels, suppliers, sales, purchases, and expiry tracking with secure authentication and responsive dashboards.",
-    image: projectImg5,
     tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
   },
   {
     title: "Learning Management System (LMS)",
     description:
       "A web-based Learning Management System developed using ASP.NET MVC with features like user authentication, course management, student enrollment, and an admin dashboard.",
-    image: projectImg1,
     tech: ["ASP.NET MVC", "C#", "MS SQL Server", "Bootstrap"],
   },
   {
     title: "Tour & Travel Management System",
     description:
       "A tour and travel booking system built with ASP.NET MVC, allowing users to explore travel packages and administrators to manage bookings and inquiries.",
-    image: projectImg2,
     tech: ["ASP.NET MVC", "C#", "MS SQL Server", "HTML", "CSS"],
   },
 
@@ -117,14 +114,12 @@ export const projects = [
     title: "YouTube Clone",
     description:
       "A responsive YouTube clone developed using React, featuring video search, listings, and component-based architecture with API integration.",
-    image: projectImg4,
     tech: ["React", "JavaScript", "YouTube API", "CSS"],
   },
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio website built using React to showcase projects, skills, and experience with a modern, responsive UI.",
-    image: projectImg5,
     tech: ["React", "JavaScript", "CSS", "GitHub Pages"],
   },
 ];
