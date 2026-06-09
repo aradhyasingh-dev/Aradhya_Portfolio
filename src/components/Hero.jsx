@@ -31,12 +31,12 @@ const Hero = () => {
             >
               View Work
             </a>
-            <a
+            {/* <a
               href="contact"
               className="px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
             >
               Contact Me
-            </a>
+            </a> */}
           </div>
         </div>
 

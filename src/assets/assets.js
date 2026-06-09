@@ -58,34 +58,28 @@ export const skills = [
     icon: FaReact,
     description:
       "Building responsive, accessible, and interactive user interfaces.",
-    tags: ["React", "HTML", "CSS", "JavaScript", "Bootstrap"],
+    tags: ["React", "HTML", "CSS", "JavaScript", "Bootstrap", "Angular"],
   },
   {
     title: "Backend Development",
     icon: FaServer,
     description: "Developing robust server-side applications and RESTful APIs.",
-    tags: ["ASP.NET MVC", "Node.js", "Express", "Django"],
+    tags: ["ASP.NET MVC", "ASP.NET Core", "Node.js", "Express"],
   },
   {
     title: "Database Management",
     icon: FaDatabase,
     description:
       "Designing and optimizing databases for performance and scalability.",
-    tags: ["MongoDB", "PostgreSQL", "MS SQL Server"],
+    tags: ["MongoDB", "MS SQL Server"],
   },
-  {
-    title: "Mobile Development",
-    icon: FaMobileAlt,
-    description:
-      "Building cross-platform mobile applications using modern frameworks.",
-    tags: ["React Native"],
-  },
+
   {
     title: "Tools & Technologies",
     icon: FaTools,
     description:
       "Tools and platforms I use for efficient development and collaboration.",
-    tags: ["Git", "GitHub"],
+    tags: ["Git", "GitHub", "Visual Studio", "VS Code", "Postman"],
   },
   {
     title: "Programming Languages",
@@ -98,14 +92,18 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Medicine Management System",
+    description:
+      "A MERN stack-based inventory management application for managing medicines, stock levels, suppliers, sales, purchases, and expiry tracking with secure authentication and responsive dashboards.",
+    image: projectImg5,
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
+  },
+  {
     title: "Learning Management System (LMS)",
     description:
       "A web-based Learning Management System developed using ASP.NET MVC with features like user authentication, course management, student enrollment, and an admin dashboard.",
     image: projectImg1,
     tech: ["ASP.NET MVC", "C#", "MS SQL Server", "Bootstrap"],
-    icons: [FaServer, FaDatabase],
-    demo: "#",
-    code: "#",
   },
   {
     title: "Tour & Travel Management System",
@@ -113,29 +111,14 @@ export const projects = [
       "A tour and travel booking system built with ASP.NET MVC, allowing users to explore travel packages and administrators to manage bookings and inquiries.",
     image: projectImg2,
     tech: ["ASP.NET MVC", "C#", "MS SQL Server", "HTML", "CSS"],
-    icons: [FaServer, FaDatabase],
-    demo: "#",
-    code: "#",
   },
-  {
-    title: "Web Forms Application",
-    description:
-      "A database-driven application built using ASP.NET Web Forms with CRUD operations, server-side validation, and SQL Server integration.",
-    image: projectImg3,
-    tech: ["ASP.NET Web Forms", "C#", "MS SQL Server"],
-    icons: [FaServer, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
+
   {
     title: "YouTube Clone",
     description:
       "A responsive YouTube clone developed using React, featuring video search, listings, and component-based architecture with API integration.",
     image: projectImg4,
     tech: ["React", "JavaScript", "YouTube API", "CSS"],
-    icons: [FaReact],
-    demo: "#",
-    code: "#",
   },
   {
     title: "Portfolio Website",
@@ -143,9 +126,6 @@ export const projects = [
       "A personal portfolio website built using React to showcase projects, skills, and experience with a modern, responsive UI.",
     image: projectImg5,
     tech: ["React", "JavaScript", "CSS", "GitHub Pages"],
-    icons: [FaReact],
-    demo: "#",
-    code: "#",
   },
 ];
 
@@ -164,6 +144,14 @@ export const workData = [
     duration: "4 Months",
     description:
       "Worked on live projects using ASP.NET MVC, .NET Core, and ASP.NET Web Forms. Contributed to application development, bug fixing, and feature implementation in a professional team environment.",
+    color: "pink",
+  },
+  {
+    role: "Full Stack Intern",
+    company: "Fourbrick Technology Pvt. Ltd., Noida",
+    duration: "April 2026 – Present",
+    description:
+      "Working on live projects using MongoDB, Express.js, React.js, and Node.js. Developing responsive user interfaces, building RESTful APIs, integrating databases, implementing CRUD operations, debugging applications, and collaborating with the development team to deliver scalable and efficient web solutions.",
     color: "pink",
   },
 ];
